@@ -1,6 +1,6 @@
 function chessBoard(x, y){
     //(500*500)px is default size of board (set in main.css);
-    let boarWidth =(500/y*x)+"px";
+    let boardWidth =(500/y*x)+"px";
     let boardHeight= (500/x*y)+"px";
     let saskes = "";
     let total = 0;
@@ -43,7 +43,7 @@ function chessBoard(x, y){
         document.getElementById('saskes').style.height=boardHeight;    
     }
     if(y>x){
-        document.getElementById('saskes').style.width=boarWidth;
+        document.getElementById('saskes').style.width=boardWidth;
     }
     
     // inserting into html file
@@ -51,4 +51,4 @@ function chessBoard(x, y){
 }
 
 
-chessBoard(50, 22);
+chessBoard(5, 22);

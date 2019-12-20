@@ -15,29 +15,29 @@ body{
     justify-content: center;
 }
 
-#saskes{
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height:500px;    
-}
+        #saskes{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            height:500px;    
+        }
 
-.row{
-    flex:1;
-    display: flex;
-    flex-direction: row;
-}
+                .row{
+                    flex:1;
+                    display: flex;
+                    flex-direction: row;
+                }
 
-.langelisW{
-    flex:1;
-    display: inline-block;
-    background-color: white;
-    border: 1px solid black;
-}
+                        .langelisW{
+                            flex:1;
+                            display: inline-block;
+                            background-color: white;
+                            border: 1px solid black;
+                        }
 
-.langelisB{
-    flex:1;
-    display: inline-block;
-    background-color: black;
-    border: 1px solid black;
-}
+                        .langelisB{
+                            flex:1;
+                            display: inline-block;
+                            background-color: black;
+                            border: 1px solid black;
+                        }
