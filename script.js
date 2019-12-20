@@ -40,7 +40,6 @@ function chessBoard(x, y){
     
     // either x-axis  or y-axis of board (the one that is bigger) stays 500px another axis is recalculated accordingly:
     if(x>y){
-        let boardHeight= (500/x*y)+"px";
         document.getElementById('saskes').style.height=boardHeight;    
     }
     if(y>x){
@@ -52,4 +51,4 @@ function chessBoard(x, y){
 }
 
 
-chessBoard(15, 20);
+chessBoard(50, 22);
