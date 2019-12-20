@@ -51,5 +51,5 @@ function chessBoard(x, y){
     document.getElementById('saskes').innerHTML +=  saskes; 
 }
 
-hei
+
 chessBoard(15, 20);
